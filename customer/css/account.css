@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul , ol{
+	list-style-type: none;
+}
+body{
+   font-family: 'Roboto', sans-serif; 
+}
+.info{
+    margin-left: 30px;
+}
+.my h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+    border-bottom: 1px solid #4b4b4b!important;
+    padding-bottom: 5px!important;
+}
+.welcome_text p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.contact_info{
+    border: 1px solid #D3D3D3;
+    width: 380px;
+    padding: 0px 10px 25px 10px;
+    background-color: cornsilk;
+}
+.contact_info h4,.delivery_add h4{
+    text-transform: capitalize;
+    font-size: 14px;
+    border-bottom: 1px solid #4b4b4b!important;
+    padding-bottom: 5px!important;
+    
+}
+.delivery_add{
+    margin-top: 40px;
+    border: 1px solid #D3D3D3;
+    width: 380px;
+    padding: 0px 10px 25px 10px; 
+    background-color: cornsilk;
+}
+.contact_info a,.delivery_add a{
+    float: right;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.get_name{
+    font-size: 12px;
+}
+.my_name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 5px!important;
+}
+.c_image{
+    margin-top: 10px;
+}
+.custom-button{
+    display: inline-block !important;
+    margin: 10px 10px 0px 20px;
+    padding: 13px 35px 13px 35px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #6b044e;
+}
+/*Hover Fall Effect*/
+.fall-item {
+   width: 220px;   
+   height: 250px;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+.fall-item .mask{
+   width: 220px;
+   height: 250px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.fall-item img {
+   display: block;
+   position: relative;   width: 220px;
+   height: 250px;
+}
+.mask{
+    padding-top: 150px;
+}
+.mask a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #91c5a9;
+    font-weight: bold;
+    border-top: 2px solid #91c5a9;
+    border-bottom:2px solid #91c5a9;
+    padding-top: 50px;
+}
+.mask h4{
+    padding: 5px 0px;
+    border-top: 2px solid #91c5a9;
+    border-bottom:2px solid #91c5a9;
+    font-size: 14px;
+}
+.mask small{
+    color: #91c5a9;
+}
+.fall-effect .mask {
+    background-color: rgba(0,0,0,.5);
+    top: -200px;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-out 0.5s;
+    -moz-transition: all 0.5s ease-out 0.5s;
+    -o-transition: all 0.5s ease-out 0.5s;
+    -ms-transition: all 0.5s ease-out 0.5s;
+     transition: all 0.5s ease-out 0.5s;
+}
+
+.fall-effect:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   top: 0px;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+}
+/******
+change password
+**********/
+td{
+    padding: 5px;
+}
+table{
+    border: 1px solid #D3D3D3;
+    
+}
+.pass_table{
+    margin-left: 20px;
+}
+.custom-button-pass{
+    display: inline-block !important;
+    margin: 10px 10px 0px 98px;
+    padding: 13px 35px 13px 35px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #6b044e;
+}
+.txt{
+    padding: 5px 10px;
+    width: 250px;
+}
+.change_info{
+    margin-left: 10px;
+}
+.custom-button-account{
+    display: inline-block !important;
+    margin: 10px 0px 0px 100px;
+    padding: 13px 35px 13px 35px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #6b044e;
+}

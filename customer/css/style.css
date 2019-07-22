@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul , ol{
+	list-style-type: none;
+}
+body{
+   font-family: 'Roboto', sans-serif; 
+}
+img{
+	border: 0;
+}
+.topbar{
+    background: linear-gradient(to bottom, #333333 0%, #000000 100%);
+}
+.top ul li{
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.top ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    text-transform: uppercase;
+    margin: 5px 26px 15px 26px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+letter-spacing: 0.8px;
+}
+.head{
+    margin-top: 20px;
+}
+.logo img{
+    height: 60px;
+    width: 165px;
+}
+.input{
+    width: 450px;
+    height: 40px;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #606060;
+    background-color: #f5f5f5;
+    border: 0px;
+}
+.search{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #630460;
+    border: 0px;
+    margin-left: -5px;
+}
+.info{
+    margin-left: 50px;
+}
+.info ul li{
+    float: left;
+}
+.info ul li a{
+    text-decoration: none;
+    color: #000007;
+    
+    font-size: 14px;
+    font-weight: 700;
+}
+.cartimg{
+    margin-left: 10px;
+}
+.climg{
+    margin-bottom: 20px;
+}
+/*****menu and slider part******/
+
+#menuandslider{
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+.menu{
+    background-color: #fff;
+    height: 340px;
+    width: 200px;
+    
+}
+.menuobr{
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    
+}
+
+.submenu li{
+    text-transform: uppercase;
+    
+    padding: 6px 0px 6px 0px;
+    position: relative;
+    
+}
+.submenu li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    padding-left: 8px;
+    font-family:"Roboto", sans-serif;
+    
+}
+.male{
+    padding-right: 5px;
+    font-size: 14px;
+   
+    
+}
+.female,.phone{
+    padding-right: 5px;
+    font-size: 14px;
+    
+    
+}
+.tv,.com,.app,.home,.ball,.beauty,.baby{
+    padding-right: 2px;
+    font-size: 10px;
+}
+.right-arrow{
+    padding-left: 57px;
+}
+.right-arrow-female{
+    padding-left: 37px;
+}
+.right-arrow-phone{
+    padding-left: 32px;
+}
+.right-arrow-tv{
+    padding-left: 48px;
+}
+.right-arrow-com{
+    padding-left: 12px;
+}
+.right-arrow-app{
+    padding-left: 75px;
+}
+.right-arrow-home{
+    padding-left: 53px;
+}
+.right-arrow-ball{
+    padding-left: 40px;
+}
+
+.right-arrow-beauty{
+    padding-left: 40px;
+}
+.right-arrow-baby{
+    padding-left: 50px;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+.cole{
+    background-color: #fff;
+}
+.gif img{
+    height: 340px;
+    width: 195px;
+   
+}
+.carousel{
+    width: 780px;
+}
+.carousel-inner {
+    height: 340px;
+}
+/*=========submenu============*/
+.submenu li{
+    position: relative;
+     
+}
+.submenu-container{
+    position: absolute;
+   top: 0px;
+    left: 175px;
+    width: 600px;
+    height: 340px;
+    z-index: 1000;
+     background-color: rgba(255,255,255,.99);
+    border: 1px solid #ddd;
+    border-top: none;
+   display: none;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.submenu li:hover .submenu-container{
+   display: block;
+    z-index:999999;
+}
+.inner-submenu{
+    width: 50%;
+    float: left;
+}
+.inner-submenu ul >.category{
+    text-transform: uppercase;
+color: #000;
+height: 26px;
+line-height: 26px;
+}
+.inner-submenu ul >.subcategory{
+    padding-left: 10px;
+    color: #666;
+    height: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.submenu-container-female{
+    position: absolute;
+   top: -32px;
+    left: 175px;
+    width: 600px;
+    height: 340px;
+    z-index: 1000;
+     background-color: rgba(255,255,255,.99);
+    border: 1px solid #ddd;
+    border-top: none;
+   display: none;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.submenu li:hover .submenu-container-female{
+   display: block;
+    z-index:999999;
+}
+
+/*=========services============*/
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.icons{
+    float: left;
+     border-bottom: 1px solid #858585;
+}
+.icons i{
+    font-size: 36px;
+    padding: 20px 0px 30px 20px;
+    margin-right: 10px;
+}
+.icons_text{
+    float: right;
+    padding-top: 15px;
+}
+.icons_text h4{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+.icons_text p{
+    color: #858585;
+    line-height: 20px;
+    margin-top: 11px;
+}
+
+/*=========product part============*/
+.pro_text{
+    padding: 0 0 40px;
+    text-align: center;
+}
+.pro_text h1{
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.pro_img{
+    padding: 0 0 40px;
+    text-align: center;
+}
+
+/*=========product part============*/
+
+
+.women_img img{
+    display: block;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: all .8s ease;
+    margin: 0 auto;
+}
+.men_img{
+    margin-bottom: 100px;
+}
+.men_img img{
+    display: block;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: all .8s ease;
+    margin: 0 auto;
+    
+}
+.link{
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 200px;
+    padding: 15px;
+}
+.men_pro > .link > .image_wrapper {
+    margin-top: 19px;
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+#single_product{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+.vc_row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+.vc_row a{
+    text-decoration: none;
+}
+.vc_row a img{
+    width: 100%;
+}
+.content_text{
+    width: 100%;
+    text-align: center;
+    font-size: 37px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #333;
+    transform: translate(0%,-140%);
+}
+.discount{
+    font-weight: 600;
+}
+.title{
+    font-size: 37px;
+    line-height: 48px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #333;
+    
+}
+.title_free{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+/*****
+        my account setting
+******/
+
+
